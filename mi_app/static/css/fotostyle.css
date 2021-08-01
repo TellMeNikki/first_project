@@ -1,0 +1,43 @@
+.container{
+  width: 100%;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.polaroid {
+  background: #fff;
+  padding: 0.6rem 0.6rem 3rem 0.6rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);  
+}
+
+.polaroid > img{
+  max-width: 100%;
+  height: auto;
+}
+
+.item {
+  width: 24.5%;
+  display: inline-block;
+  margin-top: 2rem;
+  filter: grayscale(100%);
+}
+
+.polaroid:before {
+  transform: rotate(-4deg);
+  height: 20%;
+  width: 47%;
+  bottom: 30px;
+  left: 12px;
+  box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.3);
+}
+
+.item:hover {
+  filter: none;
+  transform: scale(1, 1) rotate(-15deg) !important;
+  transition: all 0.35s;
+}
+
+.card-body{
+    background-image: url("https://k60.kn3.net/taringa/6/2/A/8/B/8/Joselyn2010/83A.jpg")
+}
+
